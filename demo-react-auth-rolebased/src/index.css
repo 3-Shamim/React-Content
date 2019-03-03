@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ddd;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.ml-1 {
+  margin-left: 5px;
+}
+.mt-3 {
+  margin-top: 15px;
+}
+.p-3 {
+  padding: 10px;
+}
+/* .nav-wrapper ul a.active {
+  background-color: #ff0202b3;
+}
+ */
+/* =========== Login Component ============= */
+.preloader-wrapper {
+  top: 15px;
+  left: 10px;
+}
+.login {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login .card {
+  width: 25%;
+}
+
+/* ============= Error Component ================ */
+.error-wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.error-wrapper .card {
+  width: 25%;
+}
